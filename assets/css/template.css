@@ -64,11 +64,15 @@ nav a:hover {
     color: #fff;
     font-size: 50px;
     text-shadow: 0px 1px 0pc #555 ;
+    margin: 0;
+    padding: 0;
 }
 .banner_headline h2 {
     color: #fff;
     font-size: 19px;
     text-shadow: 0px 1px 0pc #555 ;
+    margin: 0;
+    padding: 0;
 }
 .banner_options {
     height: 210px; 
