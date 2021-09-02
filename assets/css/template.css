@@ -86,6 +86,7 @@ nav a:hover {
 .banner3 {
     flex: 1;
     color: #fff;
+    padding: 20px;
 }
 .banner1 {
     background-color: #39aae1;
