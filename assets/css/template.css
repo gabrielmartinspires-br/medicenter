@@ -66,6 +66,7 @@ nav a:hover {
     text-shadow: 0px 1px 0pc #555 ;
     margin: 0;
     padding: 0;
+    width: 300px;
 }
 .banner_headline h2 {
     color: #fff;
@@ -73,6 +74,7 @@ nav a:hover {
     text-shadow: 0px 1px 0pc #555 ;
     margin: 0;
     padding: 0;
+    width: 300px;
 }
 .banner_options {
     height: 210px; 
