@@ -4,11 +4,12 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 300px;
 }
 header {
     display: flex;
     justify-content: center;
-    height: 120px;
+    height: 150px;
 }
 .container {
     display: flex;
@@ -53,6 +54,7 @@ nav a:hover {
     background-position:center;
     background-size: cover;
     height: 670px;
+    
 }
 .column {
     flex-direction: column;
@@ -66,19 +68,21 @@ nav a:hover {
 .banner_headline h1 {
     color: #fff;
     font-size: 70px;
-    text-shadow: 0px 1px 0pc #555 ;
+    text-shadow: 0px 1px 0px #555;
     margin: 0;
     padding: 0;
     max-width: 350px;
+    margin-top: 90px;
 }
 .banner_headline h2 {
     color: #fff;
     font-size: 21px;
-    text-shadow: 0px 1px 0pc #555 ;
+    text-shadow: 0px 1px 0px #555 ;
     margin: 0;
     padding: 0;
     max-width: 350px;
-    margin-top: 30px;
+    margin-top: 35px;
+    margin-bottom: 100px;
 }
 .banner_options {
     height: 210px; 
@@ -125,6 +129,62 @@ nav a:hover {
     padding-bottom: 10px;
     font-size: 13px;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
-    
+    border-bottom: 1px solid rgba(204, 204, 204, 0.3);    
+}
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 2;
+}
+#geral aside {
+    flex: 1;
+}
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+.widget_body_text {
+    color: #000;
+    font-size: 15px;
+}
+
+.widget_body_cotacts {
+    display: flex;
+    flex-direction: column;
+}
+.widget_body_cotacts {
+    display: flex;
+    justify-content: space-between;
+}
+.item_contact1 {
+    border-top: 1px solid #777777;;
+}
+.item_contact1,
+.item_contact2,
+.item_contact3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom:1px solid #777777;
+}
+.mail {
+    text-decoration: none;
+    color: #000;
+}
+.mail:hover {
+    text-decoration: underline;
+    color: #0000ff;
 }
