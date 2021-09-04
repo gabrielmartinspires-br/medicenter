@@ -167,17 +167,17 @@ nav a:hover {
 }
 .widget_body_cotacts {
     display: flex;
-    justify-content: space-between;
+    
 }
-.item_contact1 {
+.contact_info1 {
     border-top: 1px solid #777777;;
 }
-.item_contact1,
-.item_contact2,
-.item_contact3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.icon_contact1 {    
+    background-image: url('../images/phone-call.png');
+}
+.contact_info1,
+.contact_info2,
+.contact_info3 {
     border-bottom:1px solid #777777;
 }
 .mail {
