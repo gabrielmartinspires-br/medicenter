@@ -164,6 +164,7 @@ nav a:hover {
 .widget_body_cotacts {
     display: flex;
     flex-direction: column;
+    float: left;
 }
 .widget_body_cotacts {
     display: flex;
@@ -173,7 +174,9 @@ nav a:hover {
     border-top: 1px solid #777777;;
 }
 .icon_contact1 {    
+    display: flex;
     background-image: url('../images/phone-call.png');
+    height: 24px;
 }
 .contact_info1,
 .contact_info2,
@@ -187,4 +190,7 @@ nav a:hover {
 .mail:hover {
     text-decoration: underline;
     color: #0000ff;
+}
+.item_contact {
+    display: flex;
 }
