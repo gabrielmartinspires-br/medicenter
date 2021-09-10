@@ -115,3 +115,21 @@ nav a:hover {
     font-size: 13px;
     text-decoration: none;
 }
+.banner_hours {
+    margin-top: 20px;
+}
+.banner_hours1 {
+    border-top: 1PX solid rgba(255, 255, 255, 0.3);
+}
+.banner_hours1,
+.banner_hours2,
+.banner_hours3 {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0;
+    margin-top: 5PX;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
