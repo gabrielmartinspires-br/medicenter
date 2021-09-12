@@ -277,6 +277,39 @@ footer {
 .flexcolumn {
     flex-direction: column;
 }
+.latest_post {
+    font-size: 11px;    
+}
+.latest_post_text {
+    margin-left: 10px;
+}
+.latest_post1,
+.latest_post2,
+.latest_post3 {
+    display: flex;
+    line-height: 18px;
+}
+.latest_post1 a {
+    display: flex;
+    flex: 1;
+}
+.latest_post2 a {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+.latest_post3 a {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+.latest_post a {
+    text-decoration: none;
+    color: #fff;
+}
+.data_post {
+    color: #0079c7;
+}
 footer .widget_title_test {
     color: #fff;
 }
